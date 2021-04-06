@@ -1,0 +1,4 @@
+com\ck\configuration\SpringTransactionConfiguration.class
+com\ck\App.class
+com\ck\service\IProvinceService.class
+com\ck\service\impl\IProvinceServiceImpl.class

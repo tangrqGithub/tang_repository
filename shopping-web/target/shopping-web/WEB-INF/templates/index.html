@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<!--suppress ALL-->
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <table>
+        <tr>
+            <td>id</td>
+            <td>省份</td>
+        </tr>
+        <tr th:each="p:${list}">
+            <td th:text="${p.p_id}">id</td>
+            <td th:text="${p.p_name}">省份</td>
+        </tr>
+    </table>
+</body>
+</html>
